@@ -1,3 +1,5 @@
+import Classes.ReservationDetails;
+import Enuns.ClientType;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -17,5 +19,7 @@ public class FailingTest {
        HotelReservation Hotel = new HotelReservation();
        assertEquals("Ridgewood", Hotel.getCheapestHotel("Rewards: 26Mar2009(thur), 27Mar2009(fri), 28Mar2009(sat)"));
    }
+
+
    
 }
